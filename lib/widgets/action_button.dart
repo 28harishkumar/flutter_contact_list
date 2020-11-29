@@ -26,9 +26,7 @@ class ActionButton extends StatelessWidget {
           'Remove',
           style: TextStyle(color: Colors.redAccent),
         ),
-        onPressed: () {
-          onPress();
-        },
+        onPressed: onPress,
       );
     }
 
@@ -39,9 +37,7 @@ class ActionButton extends StatelessWidget {
         'Select',
         style: TextStyle(color: Colors.blueAccent),
       ),
-      onPressed: () {
-        onPress();
-      },
+      onPressed: onPress,
     );
   }
 }
